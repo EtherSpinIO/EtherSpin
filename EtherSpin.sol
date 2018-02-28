@@ -1162,7 +1162,7 @@ contract EtherSpin is usingOraclize, SafeMath {
     }
 
     function ownerDeposit() public payable {
-        // Simply allows owner to deposit funds into the house bankroll
+        // Simply allows owner to deposit funds into the house bankroll.
     }
 
     function ownerSetGasLimit(uint gasValue) public onlyOwner {
